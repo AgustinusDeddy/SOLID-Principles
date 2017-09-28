@@ -44,9 +44,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enums.cs" />
+    <Compile Include="Filter\BetterFilter.cs" />
+    <Compile Include="Filter\IFilter.cs" />
     <Compile Include="Product.cs" />
+    <Compile Include="Filter\ProductFilter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Specification\AndSpecification.cs" />
+    <Compile Include="Specification\ColorSpecification.cs" />
+    <Compile Include="Specification\ISpecification.cs" />
+    <Compile Include="Specification\SizeSpecification.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
