@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.OpenClosePrinciple", "2.O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosePrinciple", "OpenClosePrinciple\OpenClosePrinciple.csproj", "{904E568F-4F47-4824-8ECF-B40B2B84B198}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Lishkov Substitution Principle", "3.Lishkov Substitution Principle", "{1AABC516-BCE3-479A-87A3-5E0F7245716E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP", "LSP\LSP.csproj", "{8D669108-3DDF-4AF2-BD36-10AE204AA49D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{904E568F-4F47-4824-8ECF-B40B2B84B198}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{904E568F-4F47-4824-8ECF-B40B2B84B198}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{904E568F-4F47-4824-8ECF-B40B2B84B198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D669108-3DDF-4AF2-BD36-10AE204AA49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D669108-3DDF-4AF2-BD36-10AE204AA49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D669108-3DDF-4AF2-BD36-10AE204AA49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D669108-3DDF-4AF2-BD36-10AE204AA49D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{FB004CF2-3AC4-4364-9D3D-B59A52A6A4D1} = {32F205A5-8999-4DA7-A5CA-4D12493996B4}
 		{904E568F-4F47-4824-8ECF-B40B2B84B198} = {90E98EE2-2859-43A2-901F-A3026AA002BC}
+		{8D669108-3DDF-4AF2-BD36-10AE204AA49D} = {1AABC516-BCE3-479A-87A3-5E0F7245716E}
 	EndGlobalSection
 EndGlobal
